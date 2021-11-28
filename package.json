@@ -1,0 +1,11 @@
+{
+  "name": "node3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getInput.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
