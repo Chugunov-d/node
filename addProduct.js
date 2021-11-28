@@ -9,9 +9,8 @@ async function addProduct() {
    let content = readContent();
    let newProduct = {};
  
-   //console.log('Введите id');
-   console.log("Введите следующие данные о товаре:");
-   let answer = await getInput(rl,"Введите ID: ");
+   console.log('Введите id');
+   let answer = await getInput(rl);
    newProduct.id = answer;
    console.log('Введите продукт: ');
    answer = await getInput(rl);
